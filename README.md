@@ -2,7 +2,7 @@
 
 ![Demo](Demo.png)
 
-A simple content-based movie recommender with a Streamlit UI. It uses the TMDB 5000 Movies and Credits datasets to compute movie-to-movie similarity and then recommends the top 5 similar titles, displaying their posters.
+A simple content-based movie recommender with a Streamlit UI, using the TMDB 5000 Movies and Credits datasets to compute movie-to-movie similarity. It recommends the top 5 similar titles, displaying their posters and providing a direct link to the official TMDB movie page.
 
 ## Project structure
 
