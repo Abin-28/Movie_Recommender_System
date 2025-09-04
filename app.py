@@ -30,10 +30,10 @@ def recommend(movie):
     return recommended_movies_names,recommended_movie_posters
 
 #importing movies_dict.pkl for using in drop box
-movies_dict=pickle.load(open('movies_dict.pkl','rb'))
+movies_dict=pickle.load(open('movie-recommender-system/movies_dict.pkl','rb'))
 movies=pd.DataFrame(movies_dict)
 #importing similarity.pkl
-similarity=pickle.load(open('similarity.pkl','rb'))
+similarity=pickle.load(open('movie-recommender-system/similarity.pkl','rb'))
 
 #Displaying Title name
 st.title('Movie Recommender System')
