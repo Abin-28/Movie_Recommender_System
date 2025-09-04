@@ -4,6 +4,9 @@
 
 A simple content-based movie recommender with a Streamlit UI, using the TMDB 5000 Movies and Credits datasets to compute movie-to-movie similarity. It recommends the top 5 similar titles, displaying their posters and providing a direct link to the official TMDB movie page.
 
+The data is differentiated using vectorization method in which the user provided movie is matched with most similar movies and the 5 similar movies is displayed along with it in streamlit website
+
+
 ## Project structure
 
 - `app.py`: Streamlit app (main Front-End) that loads precomputed artifacts and serves recommendations.
