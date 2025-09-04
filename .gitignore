@@ -1,0 +1,43 @@
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+ENV/
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / dist / coverage
+build/
+dist/
+.dist/
+*.egg-info/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Regenerated recommendation artifacts (do not commit)
+movie-recommender-system/movies_dict.pkl
+movie-recommender-system/similarity.pkl
+movie-recommender-system/movie.pkl
+
+# Local config
+.env.local
+*.secret
