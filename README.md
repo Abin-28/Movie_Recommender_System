@@ -4,7 +4,7 @@ A simple content-based movie recommender with a Streamlit UI. It uses the TMDB 5
 
 ## Project structure
 
-- `app.py`: Streamlit app that loads precomputed artifacts and serves recommendations.
+- `app.py`: Streamlit app (main Front-End) that loads precomputed artifacts and serves recommendations.
 - `movie-recommender-system/main.ipynb`: Notebook that builds the artifacts (feature extraction and similarity matrix).
 - `movie-recommender-system/tmdb_5000_movies.csv`, `movie-recommender-system/tmdb_5000_credits.csv`: Source datasets.
 - Regenerated artifacts (not committed):
