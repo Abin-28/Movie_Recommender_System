@@ -24,7 +24,7 @@ Note: The `.gitignore` is configured to exclude the regenerated artifacts.
 Install dependencies:
 
 ```bash
-pip install streamlit pandas numpy scikit-learn requests jupyter
+pip install -r requirements.txt
 ```
 
 ## Regenerate the artifacts (first-time setup)
